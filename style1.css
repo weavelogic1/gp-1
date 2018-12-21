@@ -1,0 +1,275 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	position: absolute;
+    top: 4%;
+    left: 8%;
+    height: auto;
+    width: 8%;
+}
+.background img{
+	width: 80%;
+	height: auto;
+}
+.main-div{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: relative;
+    text-align: center;
+}
+.icon{
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+}
+.fb-icon{
+	margin: 0px 50px 100px 100px ;
+	height: auto;
+	width: 4%;
+	background: transparent;
+    border: none;
+}
+.youtube-icon{
+	margin: 0px 0px 100px 50px ;
+	height: auto;
+	width: 8%;
+	background: transparent;
+    border: none;
+}
+.insta-icon{
+	margin: 0px 0px 100px 0px ;
+	height: auto;
+	width: 6%;
+	background: transparent;
+    border: none;
+}
+.scrolldown-txt{
+    color: #9e9e9e;
+    position: absolute;
+    top: 61%;
+    left: 9%;
+    right: 91%;
+    text-align: justify;
+}
+.scrolldown{
+    height: 10%;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+.top-light{
+	position: absolute;
+    left: 43.5%;
+    height: auto;
+    width: 14%;
+    top: 5%;
+}
+.particles{
+	position: absolute;
+    left: 31.3%;
+    height: auto;
+    width: 39.2%;
+    top: 30%;
+    filter: blur(0.7px);
+}
+.shatter-particle{
+	position: absolute;
+    left: 28.3%;
+    height: auto;
+    width: 43.2%;
+    top: 24%;
+}
+.smoke{
+	position: absolute;
+    left: 41.3%;
+    height: auto;
+    width: 16%;
+    top: 13%;
+    filter: saturate(10) brightness(150%);
+}
+.glass-shatter{
+	position: absolute;
+    left: 46.9%;
+    height: auto;
+    width: 9.2%;
+    top: 36%;
+    filter: grayscale(35%) blur(0.5px);
+}
+.glass-shatter1{
+    position: absolute;
+    left: 61.8%;
+    height: auto;
+    width: 2%;
+    top: 58.7%;
+    filter: grayscale(20%) blur(0.5px);
+}
+.glass-shatter2{
+	position: absolute;
+    left: 28.8%;
+    height: auto;
+    width: 6%;
+    top: 62.7%;
+    filter: grayscale(20%);
+}
+.glass-shatter4{
+	position: absolute;
+    left: 38.9%;
+    height: auto;
+    width: 2.5%;
+    top: 40%;
+    filter: grayscale(15%) blur(0.4px);
+}
+.human{
+    position: absolute;
+    left: 43%;
+    height: auto;
+    width: 15.1%;
+    top: 18%;
+}
+.lightning-lhs{
+	position: absolute;
+    left: 28.5%;
+    height: auto;
+    width: 17.9%;
+    top: 35.9%;
+}
+.lightning-rhs{
+    position: absolute;
+    left: 57.5%;
+    height: auto;
+    width: 8.3%;
+    top: 38%;
+}
+.text-escape{
+    position: absolute;
+    left: 32.7%;
+    right: 58.8%;
+    height: auto;
+    width: 36%;
+    top: 41.5%;
+}
+.book_now{
+    position: absolute;
+    left: 48%;
+    height: auto;
+    width: 5%;
+    top: 61.7%;
+}
+.bottom-paragraph{
+	color: white;
+	text-align: center;
+	font-family: "Ebrima";
+}
+.bottom-paragraph h1{
+    position: absolute;
+    left: 41.3%;
+    bottom: 17%;
+    width: 17%;
+    font-size: 16px;
+}
+.bottom-paragraph p {
+    position: absolute;
+    left: 30.8%;
+    top: 80.4%;
+    letter-spacing: 1px;
+    width: 40%;
+    font-size: 15px;
+}
+.torch{
+    position: absolute;
+    left: 37.8%;
+    height: auto;
+    width: 20%;
+    top: 86.49%;
+}
+.button{
+	position: absolute;
+    left: 48%;
+    top: 87%;
+    background: transparent;
+    border: none;
+    color: #ea3251;
+    font-weight: bold;
+    font-size: 16px;
+}
+.menu-btn{
+	position: absolute;
+    top: 4%;
+    right: 6%;
+    width: 2%;
+}
+.faq{
+	position: absolute;
+    bottom: 4%;
+    right: 6%;
+    background: transparent;
+    border: none;
+    color: #999999;
+    font-weight: bold;
+    font-size: 16px;
+}
+.close-btn{
+	width: 5%;
+    position: absolute;
+    top: 4%;
+    right: 25%;	
+}
+.menu{
+	background-color: #1f1e23;
+	position: absolute;
+	height: 100%;
+	right: 0;
+	top: 0;
+}
+.menu-text-btn{
+	position: relative;
+    font-size: 16px;
+    text-align: right;
+}
+
+#mySidenav{
+	width: 0px;
+}
+
+#mySidenav a{
+	background-position: left;
+    border: none;
+    color: #fff;
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    clear: both;
+    margin-right: 100px;
+    transition : all 0.1s ease-in-out;
+    padding-left:30px;
+}
+
+#mySidenav a:hover{
+	font-weight: bold;
+	font-size: 20px;
+	background-image: url("curzor menu2.png");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left;
+	letter-spacing: 1px;
+	font-weight: bold;	
+	cursor: pointer;
+}
+.sidenav {
+    height: 93%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}

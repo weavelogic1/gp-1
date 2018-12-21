@@ -1,0 +1,234 @@
+body{
+	margin:0;
+	padding:0;
+}
+	.landing-page{
+		height:100%;
+		width:100%;
+		background-image:url("assets/background.png");
+		background-size:100% auto;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-color:#000;
+		position:relative;
+	}
+	.top-left{
+	position: absolute;
+    top: 2%;
+    left: 4%;
+	width:15%;
+	}
+	.bottom-left{
+	position: absolute;
+    bottom: 10%;
+    left: 4%;
+	}
+	.fb{
+	padding:25px 45px;
+	cursor:pointer;
+	}
+	.insta{
+	padding:25px 30px;
+	cursor:pointer;
+	}
+	.youtube{
+	padding:24px 38px;
+	cursor:pointer;
+	}
+	
+	.human{
+	position: absolute;
+    top: 13%;
+    left: 42.6%;
+    width: 17%;
+	}
+	.escaperoom{
+	position: absolute;
+    top: 41%;
+    left: 33.6%;
+    width: 35%;
+	}
+	.light1{
+	width: 20%;
+    position: absolute;
+    top: 32%;
+    left: 26.5%;
+	}
+	.light2{
+	width: 8%;
+    position: absolute;
+    top: 35%;
+    right: 33%;
+	}
+	.toplight{
+	position: absolute;
+    width: 12%;
+    height: 3%;
+    top: 4%;
+    left: 45%;
+	}
+	.glass1{
+	position: absolute;
+    width: 2%;
+	top: 58%;
+    left: 63%;
+	filter: grayscale(50%);
+
+	}
+	.glass2{
+	position: absolute;
+    width: 7%;
+    top: 71%;
+    left: 31%;
+	}
+	.glass3{
+	position: absolute;
+    width: 3%;
+    top: 80%;
+    left: 65%;
+	}
+	.glass4{
+	position: absolute;
+	top: 38.5%;
+    left: 39%;
+    width: 2%;
+	filter: grayscale(50%);
+	}
+	.glass5{
+    position: absolute;
+    top: 43.5%;
+    left: 61%;
+    width: 1.5%;
+	}
+	.glass6{
+	position: absolute;
+    top: 35.5%;
+    left: 47%;
+    width: 10%;
+    filter: grayscale(45%);
+	}
+	.booknow{
+	position: absolute;
+	top: 66%;
+    width: 5%;
+    left: 48%;
+	cursor:pointer;
+	}
+	.smoke{
+	position: absolute;
+    top: 10%;
+    width: 20%;
+    left: 37%;
+    height: 85%;
+	filter:contrast(50%);
+	}
+	.torch{
+	position: absolute;
+    bottom: 0%;
+    width: 17%;
+    left: 42%;
+	}
+	.particle1{ 
+	position: absolute;
+    width: 44%;
+    top: 25%;
+    left: 26%;
+	}
+	.particle2{
+	position: absolute;
+    width: 30%;
+    top: 33%;
+    left: 38%;
+	}
+	h3{
+	color:#ffffff;
+	position: absolute;
+	font-family:"calibri";
+    left: 43.5%;
+    bottom: 12%;
+	}
+	p{
+	color:#b5b7b9;
+	text-align:center;
+	font-family:"calibri";
+	position: absolute;
+    left: 34%;
+    bottom: 8%
+   }
+   h4{
+	color:#eb3252;
+	font-family:"calibri";
+    position: absolute;
+    left: 47.5%;
+    bottom: 5.2%;
+	cursor: pointer;
+   }
+   .faq{
+	color:#ffffff;
+	position: absolute;
+	font-family:"calibri";
+	right:6%;
+    bottom: 10%;
+	cursor:pointer;
+	}
+   .menu{
+	position: absolute;
+    top: 7%;
+    right: 4.5%;
+    width: 16%;
+	cursor: pointer;
+   }
+   .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ea3251;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	
+}
+
+.sidenav a {
+    padding:51px 22px 54px 28px;;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fffefe;
+    display: block;	
+	text-align:center;
+	font-family:"calibri";
+    transition: 0.3s;
+  }
+
+.sidenav a:hover {
+    color: #ffffff;
+	background-image:url("assets/curzormenu2.png");
+	background-size: 10% auto;
+    background-position: left;
+    background-repeat: no-repeat;
+	filter:grayscale(100);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+	font-family:"calibri";
+    margin-left: 50px;
+	color:black;
+	padding: 15px 5px;
+}
+
+
+span{
+	position: absolute;
+    left: 92%;
+    top: 4%;
+}
+.img{
+	width:55%;
+}
